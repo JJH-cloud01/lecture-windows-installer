@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(mkdir -p C:/Users/enter/Downloads/클로드코드-정리실습/클로드코드-정리실습/기초/1주차 C:/Users/enter/Downloads/클로드코드-정리실습/클로드코드-정리실습/기초/4주차 C:/Users/enter/Downloads/클로드코드-정리실습/클로드코드-정리실습/기초/5주차 C:/Users/enter/Downloads/클로드코드-정리실습/클로드코드-정리실습/기초/6주차 C:/Users/enter/Downloads/클로드코드-정리실습/클로드코드-정리실습/기초/7주차 C:/Users/enter/Downloads/클로드코드-정리실습/클로드코드-정리실습/기초/공통)",
+      "Bash(mkdir -p C:/Users/enter/Downloads/클로드코드-정리실습/클로드코드-정리실습/심화/2주차 C:/Users/enter/Downloads/클로드코드-정리실습/클로드코드-정리실습/심화/3주차 C:/Users/enter/Downloads/클로드코드-정리실습/클로드코드-정리실습/심화/공통)",
+      "Bash(mkdir -p C:/Users/enter/Downloads/클로드코드-정리실습/클로드코드-정리실습/마스터/1주차 C:/Users/enter/Downloads/클로드코드-정리실습/클로드코드-정리실습/마스터/2주차 C:/Users/enter/Downloads/클로드코드-정리실습/클로드코드-정리실습/마스터/3주차 C:/Users/enter/Downloads/클로드코드-정리실습/클로드코드-정리실습/마스터/4주차 C:/Users/enter/Downloads/클로드코드-정리실습/클로드코드-정리실습/마스터/공통)",
+      "Bash(mv C:/Users/enter/Downloads/클로드코드-정리실습/클로드코드-정리실습/igvcm_basic_w4_교육자료_final.pptx C:/Users/enter/Downloads/클로드코드-정리실습/클로드코드-정리실습/기초/4주차/basic_w4_교육자료_final.pptx)",
+      "Bash(mv 'C:/Users/enter/Downloads/클로드코드-정리실습/클로드코드-정리실습/dqnw-기초 5주차 슬라이드 완성본.pptx' 'C:/Users/enter/Downloads/클로드코드-정리실습/클로드코드-정리실습/기초/5주차/기초 5주차 슬라이드 완성본.pptx')",
+      "Read(//c/Users/enter/Downloads/lecture-windows-installer_final/lecture-windows-installer/**)",
+      "Bash(git -C \"c:/Users/enter/Downloads/lecture-windows-installer_final/lecture-windows-installer/\" status)",
+      "Bash(gh auth:*)",
+      "Bash(gh repo:*)"
+    ]
+  }
+}
