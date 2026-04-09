@@ -2,19 +2,79 @@
   "course": {
     "name": "성우하이텍 AI 마스터 과정",
     "code": "lesson-a",
-    "version": "1.0.0",
+    "version": "2.1.0",
     "author": "tofukyung"
   },
-  "modules": [
+  "target_environment": {
+    "runtime": "claude-code-vscode-extension",
+    "min_version": "2.0.0",
+    "recommended_version": "2.1.92",
+    "os": "windows-10-11",
+    "cli_available": false,
+    "gh_cli_available": false,
+    "notes": "수강생은 Claude Code VSCode extension만 사용. 모든 실습은 사이드바 채팅창, 명령 팔레트, Source Control 패널에서 완료 가능해야 함. 외부 자료 인용 시 CLI 전용 단계는 VSCode 경로로 변환 필수."
+  },
+  "practices": [
     {
-      "id": "mw4",
-      "name": "MW4 — 첫걸음: Claude Code 설치 + GitHub + 간단 실습",
-      "sessions": ["mw4-1", "mw4-2", "mw4-3", "mw4-4"]
+      "id": "practice-01",
+      "name": "설치와 연결",
+      "module": "practice-01-install-and-connect",
+      "command": "/start-practice-01"
     },
     {
-      "id": "mw5",
-      "name": "MW5 — 심화: CLAUDE.md + 워크플로우 + Vercel 배포",
-      "sessions": ["mw5-1", "mw5-2", "mw5-3", "mw5-4"]
+      "id": "practice-02",
+      "name": "플러그인 설치 + 나를 알려주는 파일 만들기",
+      "module": "practice-02-first-profile",
+      "command": "/start-practice-02"
+    },
+    {
+      "id": "practice-03",
+      "name": "도구 탐��",
+      "module": "practice-03-plugin-literacy",
+      "command": "/start-practice-03"
+    },
+    {
+      "id": "practice-04",
+      "name": "부서별 데이터 분석",
+      "module": "practice-04-dept-analysis",
+      "command": "/start-practice-04"
+    },
+    {
+      "id": "practice-05",
+      "name": "결과 다듬기 + 저장",
+      "module": "practice-05-refine-and-share",
+      "command": "/start-practice-05"
+    },
+    {
+      "id": "practice-06",
+      "name": "CLAUDE.md 규칙 설계",
+      "module": "practice-06-claudemd-rules",
+      "command": "/start-practice-06"
+    },
+    {
+      "id": "practice-07",
+      "name": "구조가 결과를 바꾼다",
+      "module": "practice-07-workflow-and-prompt",
+      "command": "/start-practice-07"
+    },
+    {
+      "id": "practice-08",
+      "name": "부서별 통합 파이프라인",
+      "module": "practice-08-integrated-pipeline",
+      "command": "/start-practice-08"
+    },
+    {
+      "id": "practice-09",
+      "name": "하네스 엔지니어링 + 나만의 스킬 + MW6 예고",
+      "module": "practice-09-harness-and-skill",
+      "command": "/start-practice-09"
+    },
+    {
+      "id": "practice-SPARE",
+      "name": "[스페어] Vercel 배포 (시간 여유 시)",
+      "module": "practice-SPARE-vercel-deploy",
+      "command": "/start-practice-SPARE",
+      "spare": true
     }
   ],
   "participants": {

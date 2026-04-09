@@ -14,10 +14,9 @@ allowed-tools: Read, Write, Bash, Glob, Grep, AskUserQuestion
 
 ## 실행 순서
 1. `references/course-structure.json` 읽기
-2. `references/lesson-modules/{세션}.md` 읽기 (교시별 레슨 스크립트)
-3. `references/SCRIPT_INSTRUCTIONS.md` 읽고 진행 규칙 적용
-4. 필요 시 주차별/회사 자료 추가 로드
-5. 즉시 수업 시작 — 학생 이름부터 묻기
+2. `references/lesson-modules/{실습폴더}/CLAUDE.md` 읽기 (실습별 스크립트)
+3. 필요 시 회사 자료 추가 로드
+4. 즉시 수업 시작 — 학생 이름부터 묻기
 
 ## 진행 원칙
 - 네 번째 벽 깨지 않기
@@ -37,15 +36,17 @@ allowed-tools: Read, Write, Bash, Glob, Grep, AskUserQuestion
 - `references/MW5.md` — MW5 4교시 상세 참고 자료
 - `references/MW5-session4.md` — MW5 4교시 추가 참고
 
-### 교시별 레슨 스크립트
-- `references/lesson-modules/mw4-1-setup.md`
-- `references/lesson-modules/mw4-2-plugins-git.md`
-- `references/lesson-modules/mw4-3-dept-practice.md`
-- `references/lesson-modules/mw4-4-demo-present.md`
-- `references/lesson-modules/mw5-1-claudemd-deep.md`
-- `references/lesson-modules/mw5-2-workflow.md`
-- `references/lesson-modules/mw5-3-pipeline.md`
-- `references/lesson-modules/mw5-4-deploy.md`
+### 실습별 스크립트
+- `references/lesson-modules/practice-01-install-and-connect/CLAUDE.md`
+- `references/lesson-modules/practice-02-first-profile/CLAUDE.md`
+- `references/lesson-modules/practice-03-plugin-literacy/CLAUDE.md`
+- `references/lesson-modules/practice-04-dept-analysis/CLAUDE.md`
+- `references/lesson-modules/practice-05-refine-and-share/CLAUDE.md`
+- `references/lesson-modules/practice-06-claudemd-rules/CLAUDE.md`
+- `references/lesson-modules/practice-07-workflow-and-prompt/CLAUDE.md`
+- `references/lesson-modules/practice-08-integrated-pipeline/CLAUDE.md`
+- `references/lesson-modules/practice-09-harness-and-skill/CLAUDE.md`
+- `references/lesson-modules/practice-SPARE-vercel-deploy/CLAUDE.md`
 
 ### 회사 컨텍스트
 - `references/company-context/DEPARTMENTS.md` — 4그룹 부서별 안내
@@ -57,26 +58,25 @@ allowed-tools: Read, Write, Bash, Glob, Grep, AskUserQuestion
 - `references/templates/claudemd-template.md` — CLAUDE.md 작성 템플릿
 - `references/templates/presentation-template.md` — 발표 템플릿
 
-## 세션 폴더 매핑
+## 실습 매핑
 
-| 입력 | 레슨 스크립트 |
-|------|-------------|
-| MW4 1교시 | `references/lesson-modules/mw4-1-setup.md` |
-| MW4 2교시 | `references/lesson-modules/mw4-2-plugins-git.md` |
-| MW4 3교시 | `references/lesson-modules/mw4-3-dept-practice.md` |
-| MW4 4교시 | `references/lesson-modules/mw4-4-demo-present.md` |
-| MW5 1교시 | `references/lesson-modules/mw5-1-claudemd-deep.md` |
-| MW5 2교시 | `references/lesson-modules/mw5-2-workflow.md` |
-| MW5 3교시 | `references/lesson-modules/mw5-3-pipeline.md` |
-| MW5 4교시 | `references/lesson-modules/mw5-4-deploy.md` |
+| 입력 | 스크립트 |
+|------|---------|
+| practice-01 / 설치와 연결 | `references/lesson-modules/practice-01-install-and-connect/CLAUDE.md` |
+| practice-02 / 플러그인+프로필 | `references/lesson-modules/practice-02-first-profile/CLAUDE.md` |
+| practice-03 / 도구 탐색 | `references/lesson-modules/practice-03-plugin-literacy/CLAUDE.md` |
+| practice-04 / 부서별 데이터 분석 | `references/lesson-modules/practice-04-dept-analysis/CLAUDE.md` |
+| practice-05 / 결과 다듬기+저장 | `references/lesson-modules/practice-05-refine-and-share/CLAUDE.md` |
+| practice-06 / CLAUDE.md 규칙 설계 | `references/lesson-modules/practice-06-claudemd-rules/CLAUDE.md` |
+| practice-07 / 구조가 결과를 바꾼다 | `references/lesson-modules/practice-07-workflow-and-prompt/CLAUDE.md` |
+| practice-08 / 통합 파이프라인 | `references/lesson-modules/practice-08-integrated-pipeline/CLAUDE.md` |
+| practice-09 / 하네스+스킬+MW6 예고 | `references/lesson-modules/practice-09-harness-and-skill/CLAUDE.md` |
+| practice-SPARE / Vercel 배포 | `references/lesson-modules/practice-SPARE-vercel-deploy/CLAUDE.md` |
 
 ## 빠른 사용 흐름
-- `/lesson MW4 1교시` 또는 `/start-mw4-1`
-- `/lesson MW4 2교시` 또는 `/start-mw4-2`
-- `/lesson MW5 전체` — MW5 1교시부터 순서대로
+- `/start-practice-01` ~ `/start-practice-09`
+- `/start-practice-SPARE` (시간 여유 시)
 
 ## 참조 로드 규칙
-주차별 상세 맥락이 필요하면 아래 파일을 우선 참조합니다.
-- MW4 수업: `references/MW4.md`
-- MW5 수업: `references/MW5.md`
 - 공통 회사 맥락: `references/company-context.md`
+- 부서별 상세: `references/company-context/DEPARTMENTS.md`
